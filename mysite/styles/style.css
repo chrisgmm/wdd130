@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@300&family=VT323&display=swap');
+nav{  
+    display: flex;
+    justify-content: space-around;
+    background-color: #B3920B;
+  }
+nav a{
+    font-family: VT323, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 26px;
+    text-align: center;
+    color:  #38FFEE; 
+    padding: 35px;
+    background-color: #B3920B;
+    width: 100%
+}
+h1 {
+    font-family: VT323, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #38FFEE;
+    text-align: center;
+    font-size: 3em;
+}
+body{
+    background-color: #FF3CE7;
+    font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#38FFEE;
+    font-size: 2em;
+    padding: 15%;
+}
+.image-section {
+    display: grid;
+    grid-template-columns: 10% 30% 20% 30% 10%;
+    grid-template-rows: 500px;
+    text-align: center;
+}
+footer {
+    background-color: #B3920B;
+    justify-content: space-around;
+    font-family: VT323, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#FF3CE7;
+    text-align: center;
+    font-size: 3em;
+}
+#answer-card {
+    grid-column: 2/3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: #B3920B; 
+    color: #38FFEE;
+    align-content: center; 
+}
+#games-card {
+    grid-column: 4/5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: #B3920B; 
+    color: #38FFEE;
+}
