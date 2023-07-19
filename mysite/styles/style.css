@@ -2,34 +2,34 @@
 nav{  
     display: flex;
     justify-content: space-around;
-    background-color: #B3920B;
+    background-color: #e6d806;
   }
 nav a{
     font-family: VT323, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     font-size: 26px;
     text-align: center;
-    color:  #38FFEE; 
+    color:  #e6d806; 
     padding: 35px;
-    background-color: #B3920B;
+    background-color: #861499;
     width: 100%
 }
 h1 {
     font-family: VT323, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #38FFEE;
+    color: #e6d806;
     text-align: center;
     font-size: 3em;
 }
 h2 {
   font-family: VT323, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: #38FFEE;
+  color: #e6d806;
   text-align: center;
   font-size: 1.5em;
   grid-row: 2/3;
 }
 body{
-    background-color: #FF3CE7;
+    background-color: #1242E6;
     font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#38FFEE;
+    color:#e6d806;
     font-size: 2em;
     padding: 15%;
 }
@@ -40,19 +40,19 @@ body{
     text-align: center;
 }
 footer {
-    background-color: #B3920B;
+    background-color: #861499;
     justify-content: space-around;
     font-family: VT323, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:#FF3CE7;
+    color:#e6d806;
     text-align: center;
-    font-size: 3em;
+    font-size: 1em;
 }
 #answer-card {
     grid-column: 2/3;
     box-sizing: border-box;
     border-radius: 5px;
     border-color: #B3920B; 
-    color: #38FFEE;
+    color: #e6d806;
     align-content: center; 
 }
 #games-card {
@@ -60,7 +60,7 @@ footer {
     box-sizing: border-box;
     border-radius: 5px;
     border-color: #B3920B; 
-    color: #38FFEE;
+    color: #e6d806;
 }
 .game-cards{
   display: grid;
@@ -68,6 +68,9 @@ footer {
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 250px, 100px, 800px;
   margin: 20px;
+}
+a {
+  color:#e6d806
 }
 #mastermind-card{
   grid-column: 1/2;
